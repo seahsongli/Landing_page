@@ -1,6 +1,14 @@
+img {
+    width:350px;
+    height:170px;
+    
+}
+
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: "roboto";
 }
 
 .container-one,
@@ -12,6 +20,7 @@ body {
     font-size: 48px;
     font-weight: bolder ;
     color:#F9FAF8;
+    display:flex;
 }
 
 .text2 , 
@@ -23,4 +32,63 @@ body {
 .header-logo {
     font-size: 24px;
     color:#F9FAF8;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    gap:400px;
+    margin-bottom: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+
+.header-link {
+    display:flex;
+    gap: 15px;
+   
+    
+}
+
+.container-one{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid red;
+    flex:1;
+   
+}
+
+.below-header {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 100px;;
+   
+    
+}
+
+button {
+    background-color:#3882f6;
+    color:white;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.text1 {
+    display:flex;
+    width: 300px;
+    
+}
+.text2 {
+    display:flex;
+    width: 400px;
 }
