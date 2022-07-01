@@ -129,9 +129,9 @@ button {
 /* End of styling for container 2*/
 
 .container-three {
-    background-color: #1f2937;
+    background-color: #E5E7EB;
     font-size: 36px;
-    color: white;
+    color: #1f2937;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -151,4 +151,47 @@ button {
 
 /* End of styling for container 3*/
 
+.container-four{
+    height:400px;
+    flex:1;
+    
+}
+.above-footer{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #3882f6;
+    color:white;
+    margin-bottom:auto;
+    margin: 100px;
+    gap: 50px;
+    font-size: 36px;
+    
+    
+    
+}
+
+.above-footer .text1 {
+    font-weight:bold;
+    margin-top: 30px;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    height: 50px;
+    
+}
+
+.content .text1,
+.content .text2{
+   width: 500px;
+    
+}
+.above-footer .text2 {
+    margin-bottom: 30px;
+}
 
