@@ -127,3 +127,28 @@ button {
 }
 
 /* End of styling for container 2*/
+
+.container-three {
+    background-color: #1f2937;
+    font-size: 36px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:auto;
+    height: 300px;
+    font-style: italic;
+    text-align: center;
+    
+    
+    
+}
+.container-three .Author {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30px;
+}
+
+/* End of styling for container 3*/
+
+
